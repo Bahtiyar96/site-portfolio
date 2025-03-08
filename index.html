@@ -11,38 +11,50 @@
 </head>
 
 <body>
+    <!-- Scroll to top button -->
+
+    <button class="btn scrollToTop flex-center">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+     <!-- theme button light/dark -->
+
+     <div class="them-btn">
+        <i class="fa-solid fa-moon"></i>
+        <i class="fa-solid fa-sun"></i>
+    </div>
 
     <header class="header">
-    <div class="container">
-        <div class="header-wrapper">
-            <a href="" class="logo">
-                Bahtiyar
-            </a>
-            <nav class="nav">
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <a href="" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="nav-menu-btn"></div>
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="" class="logo">
+                    Bahtiyar
+                </a>
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav-menu-btn"></div>
+            </div>
         </div>
-    </div>
     </header>
 
     <main>
@@ -126,6 +138,7 @@
                             </li>
                         </ul>
                         <a href="" class="inner-info-link">
+                            Donwload
                             <i class="fa-solid fa-download"></i>
                         </a>
                     </div>
@@ -664,8 +677,8 @@
                         <div class="swiper-button-prev">
                             <i class="fa-solid fa-chevron-left"></i>
                         </div>
-                        <div class="swiper-pagination"></div>
                     </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -723,8 +736,52 @@
             </div>
         </section>
 
-   </main>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-wrapper">
+            <div class="about-group">
+                <h2>Bahtiyar</h2>
+                <p>Front End Developer</p>
+                <a href="#about">About me</a>
+            </div>
+            <div class="hr"></div>
+            <div class="info-group">
+                <h3>More</h3>
+                <ul>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <div class="hr"></div>
+            </div>
+            <div class="follow-group">
+                <h3>follow</h3>
+                <ul>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copyright">© <span class="year">2025</span> by Coding Snow. All rights reserved.</p>
+    </footer>
+
    <script src="./js/swiper-bundle.min.js"></script>
+   <script src="./js/scrollreveal.js"></script>
    <script src="./js/main.js"></script>
 </body>
 
