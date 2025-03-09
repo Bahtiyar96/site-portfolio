@@ -1119,6 +1119,10 @@ body {
     justify-content: space-between;
 }
 
+.hr {
+    border: 1px solid var(--liner-color);
+}
+
 .about-group h2 {
     font-size: 35px;
     font-weight: 600;
